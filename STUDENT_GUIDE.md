@@ -4,76 +4,126 @@
 
 Build a fictional online banking website using reusable React components.
 
-The finished example lives at `/example-page`. Use it for reference when you want to see how the pieces can fit together.
+The finished example lives at `/example-page`. Use it for inspiration if you get stuck, but try to create your own design rather than copying it exactly.
 
-The home page at `/` is intentionally blank so you have a clean space for your own work.
+The home page at `/` starts blank so you can build your own version from scratch.
 
-Your final demo should include:
+By the end of the challenge your site should include:
 
-- a landing screen
-- a dashboard
-- account cards
-- recent transactions
-- a fake money transfer form
-- a simple spending summary
-- card controls or alerts
-- a savings goal or feature section
+- A landing page
+- A customer dashboard
+- Account cards
+- Recent transactions
+- A fake money transfer form
+- A spending summary
+- Card controls or alerts
+- A savings goal or feature section
 
-## 2.5 Day Plan
+---
 
-### Day 1: Components
+# 2.5 Day Plan
 
-Build and customise small components:
+## Day 1 — Build the Landing Page
 
-- `Button`
-- `Badge`
-- `Alert`
-- `Card`
-- `Input`
+Create the public-facing home page for your fictional bank.
 
-Try changing colours, text, spacing, and variants.
+### Suggested Sections
 
-### Day 2: Banking Features
+- Hero section with your bank name
+- Short description of your bank
+- Feature cards explaining what your bank offers
+- Call-to-action buttons
+- Optional footer
 
-Use the small components to build banking components:
+Use the provided reusable components to build each section.
 
-- `AccountCard`
-- `TransactionList`
-- `TransferForm`
-- `SpendingChart`
-- `SavingsGoal`
-- `FeatureGrid`
+### Today's Focus
 
-Change the dummy data so your bank feels different from everyone else's.
+- Combining existing React components
+- Creating attractive page layouts
+- Choosing colours and branding
+- Making your page feel polished
 
-### Half Day: Final Website
+---
 
-Combine the components into:
+## Day 2 — Build the Customer Dashboard
 
-- a landing page on the blank home page
-- a dashboard page
-- your own bank name and style choices
+Imagine the customer has now logged in.
 
-## Good Student Choices
+Build a dashboard using the provided components.
 
-- Create your own fictional bank name.
-- Choose which account cards to show.
-- Add different transactions.
-- Change button variants.
-- Pick the dashboard layout order.
-- Change the landing page headline.
+### Suggested Sections
 
-## Stretch Goals
+- Welcome banner
+- Account cards
+- Recent transactions
+- Spending summary
+- Savings goal
+- Card controls or alerts
+- Money transfer form
 
-If you finish the main challenge, create one or more custom components of your own. For example:
+Arrange the dashboard however you think works best.
 
-- a spending limit warning
-- a monthly budget tracker
-- a savings milestone timeline
-- a card freeze or unfreeze control
-- a bill reminder panel
-- a quick actions toolbar
-- a mini profile or account settings card
-- a personalised welcome banner
+Update the placeholder data so your bank feels unique.
 
-Try to build your stretch component from smaller reusable pieces, then add it to your final page.
+### Today's Focus
+
+- Reusing components in different ways
+- Structuring larger pages
+- Organising information clearly
+- Customising data and content
+
+---
+
+## Half Day — Polish & Personalise
+
+Finish your website by improving the details.
+
+Ideas include:
+
+- Better spacing
+- Improved colours
+- Icons
+- Hover effects
+- Responsive layouts
+- Better typography
+- Navigation between pages
+
+Make your site feel like a real online banking product.
+
+---
+
+# Good Student Choices
+
+There isn't one correct answer.
+
+Personalise your project by:
+
+- Creating your own fictional bank name
+- Choosing your own colour scheme
+- Changing all of the placeholder data
+- Reordering dashboard sections
+- Writing your own landing page headline
+- Choosing different button styles
+- Showing different account types
+- Creating your own savings goals and transactions
+
+---
+
+# Stretch Goals
+
+If you finish early, build one or more features of your own.
+
+Ideas include:
+
+- Spending limit warning
+- Monthly budget tracker
+- Bill reminder panel
+- Quick actions toolbar
+- Card freeze/unfreeze controls
+- Notifications centre
+- Mini profile card
+- Personalised welcome banner
+- Financial tips section
+
+Try to build your new feature by combining the reusable components you've already been given.
