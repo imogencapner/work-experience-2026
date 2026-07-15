@@ -1,10 +1,22 @@
 import { A } from "storybook/internal/components";
-import { AccountCard, CardTitle, Main } from "../components";
+import { AccountCard, CardTitle, Main, PageHeader, SavingsGoal,Navbar } from "../components";
 import AccountCardSection from "./AccountCardSection";
-
+import { Card } from "./card";
 export function HomePage() {
   return(
   <Main aria-label="Student workspace">
+    <Navbar
+    bankName={"Bank"}/>
+
+  <Card />
+  
+    <SavingsGoal 
+    name={"Holiday"}
+    saved={490}
+    target={700} />
+
+
+  
  <AccountCard name = "Current Balance" balance="£11,900"> </AccountCard>
 
    <h1>Good Afternoon, Name.</h1>
