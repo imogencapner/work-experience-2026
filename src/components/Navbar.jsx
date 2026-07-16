@@ -127,7 +127,7 @@ export function Navbar({ bankName, onDashboardClick }) {
         <MenuSection>
           <h3>Navigation</h3>
           <a href="/currentaccount">Current accounts</a>
-          <a href="#spending">Spending</a>
+          <LinkText href="/SpendingPage">Spending</LinkText>
           <a href="#transfer">Help</a>
         </MenuSection>
       </SideMenu>

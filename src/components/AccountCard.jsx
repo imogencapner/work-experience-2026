@@ -3,15 +3,7 @@ import styled, { css } from "styled-components";
 const looks = {
   primary: css`
     color: white;
-    background: ${({ theme }) => theme.colors.green700};
-  `,
-  sunny: css`
-    color: ${({ theme }) => theme.colors.ink};
-    background: ${({ theme }) => theme.colors.yellow500};
-  `,
-  midnight: css`
-    color: white;
-    background: ${({ theme }) => theme.colors.blue900};
+    background: color: #0A2540;
   `,
 };
 
@@ -22,6 +14,7 @@ const Wrapper = styled.article`
   border-radius: ${({ theme }) => theme.radii.md};
   padding: 1.2rem;
   box-shadow: ${({ theme }) => theme.shadow};
+  background: #0A2540;
 
   ${({ variant = "primary" }) => looks[variant]}
 `;
@@ -53,3 +46,5 @@ export function AccountCard({ name, number, balance, change, variant, height }) 
     </Wrapper>
   );
 }
+
+

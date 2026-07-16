@@ -9,15 +9,13 @@ export function HomePage() {
     bankName={"Bank"}/>
 
   <Card />
-  
-    <SavingsGoal 
-    name={"Holiday"}
-    saved={490}
-    target={700} />
 
 
-  
- <AccountCard name = "Current Balance" balance="£11,900"> </AccountCard>
+<div style={{ marginTop: '16px' }}>
+ <AccountCard 
+ name = "Current Balance" balance="£11,900"> 
+ </AccountCard>
+ </div>
 
    <h1>Good Afternoon, Name.</h1>
     <h3>Thank you for banking with us!</h3>
