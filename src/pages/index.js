@@ -3,4 +3,5 @@ export { HomePage } from "./HomePage";
 export { TransactionsPage } from "./TransactionsPage";
 export { Card } from "./card";
 export { SpendingPage } from "./SpendingPage";
+export { AboutUsPage } from "./AboutUs";
 

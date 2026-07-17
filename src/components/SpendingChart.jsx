@@ -3,6 +3,7 @@ import styled from "styled-components";
 const Chart = styled.div`
   display: grid;
   gap: 0.9rem;
+  padding-top: 2rem;
 `;
 
 const Row = styled.div`

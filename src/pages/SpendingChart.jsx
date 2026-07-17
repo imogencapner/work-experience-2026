@@ -31,7 +31,7 @@ const Fill = styled.div`
   background: ${({ color }) => color};
 `;
 
-function SpendingChart() {
+export function SpendingChart() {
   const spending = [
     { category: "Food", amount: 80, color: "#FF6384" },
     { category: "Transport", amount: 55, color: "#36A2EB" },
