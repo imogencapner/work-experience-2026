@@ -112,7 +112,7 @@ export function Navbar({ bankName, onDashboardClick }) {
 
       <Links aria-label="Main navigation">
         <LinkText href="/transactions">Transaction</LinkText>
-        <LinkText href="/SpendingPage">Spending</LinkText>
+        <LinkText href="/mortgages">Mortgages</LinkText>
         <LinkText href="/AboutUsPage">About us</LinkText>
       </Links>
 
