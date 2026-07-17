@@ -12,7 +12,7 @@ export function HomePage() {
         padding: "2rem",
       }}
     >
-      <Navbar bankName="Bank" />
+      <Navbar bankName="SecureBank" />
 
       <div
         style={{
