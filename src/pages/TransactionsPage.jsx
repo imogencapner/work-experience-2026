@@ -3,12 +3,13 @@ import { transactions } from "../data/bankingData";
 import { Main } from "../components";
 import styled from "styled-components";
 
-const LinkText = styled.button`
+export const LinkText = styled.button`
   color: white;
   font-weight: 700;
   text-decoration: none;
   background:  #0A2540;
   padding: 4px;
+  cursor: pointer:
 `;
 
 

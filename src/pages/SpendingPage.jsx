@@ -1,9 +1,11 @@
-import { AccountCard } from "../components";
-import  SpendingChart  from "./SpendingChart";
+import { AccountCard, Main } from "../components";
+import { SpendingChart } from "./SpendingChart";
+import { LinkText } from "./TransactionsPage";
 
 
 export function SpendingPage() {
   return (
+    <Main>
     <div
       style={{
         marginBottom: "20px",
@@ -107,5 +109,11 @@ export function SpendingPage() {
         <SpendingChart />
       </div>
     </div>
+      <div style={{ marginTop: "1rem" }}>
+        <LinkText onClick={() => (window.location.href = "/")}>
+          Back to homepage
+        </LinkText>
+      </div>
+    </Main>
   );
 }
