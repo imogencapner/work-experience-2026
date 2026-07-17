@@ -46,7 +46,7 @@ export function Card() {
       />
       <TextBox>
         <Title>
-          Reliable Banking Made Simple
+          Reliable Banking Made Simple.
         </Title>
 
         <Description>

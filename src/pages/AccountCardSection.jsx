@@ -7,9 +7,18 @@
     }}
 ></div>
       
-    function AccountCard2({ name, email }) {
+function AccountCard2({ name, email }) {
     return (
-        <div className="account-card">
+        <div
+            className="account-card"
+            style={{
+                backgroundColor: "#e0e0e0",
+                padding: "20px",
+                borderRadius: "8px",
+                width: "100%",
+                boxSizing: "border-box",
+            }}
+        >
             <h2>{name}</h2>
             <p>{email}</p>
         </div>
@@ -19,12 +28,30 @@
 function AccountCardSection() {
     return (
         
-<div style ={{ display: "flex" , gap: "20px" , flexWrap: "wrap"}}>
-
+        <div 
+            style={{ 
+                display: "flex", 
+                flexDirection: "column",
+                gap: "20px",
+                width: "100%",
+            }}
+        >
     
-            <AccountCard2 name="Open Saving Pots" email="Split money into your personal savings goals." />
-            <AccountCard2 name="Spending Insights" email="View your transaction data and spending patterns." />
-            <AccountCard2 name="Card Controls" email="Fixing or replacing your card." />
+            <AccountCard2 
+                name="Open Saving Pots" 
+                email="Split money into your personal savings goals." 
+            />
+
+            <AccountCard2 
+                name="Spending Insights" 
+                email="View your transaction data and spending patterns." 
+            />
+
+            <AccountCard2 
+                name="Card Controls" 
+                email="Fixing or replacing your card." 
+            />
+
         </div>
     );
 }
